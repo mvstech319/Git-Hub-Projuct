@@ -1,0 +1,56 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+.Signup-section{
+    background-color: chocolate;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1{
+    height: auto;
+    width: 40%;
+    margin: auto;
+    border: 2px solid gray;
+    padding: 5vh 3vh;
+    border-radius: 1vh;
+    
+}
+.div-1 h4{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.div-1 button{
+    padding: 1.5vh 5vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    font-size: 3vh;
+    width: 100%;
+    margin-top: 5vh;
+}
+.div-1 form input{
+    background-color: transparent;
+    width: 100%;
+    border: 2px solid rgb(240, 179, 179);
+    outline: none;
+    border-radius: 1vh;
+    height: 6vh;
+    color: white;
+    padding: 5px;
+}
+.div-1 form input::placeholder{
+    color: white;
+}
+.main-div h6{
+    text-align: center;
+    margin-top: 3vh;
+    color: rgb(202, 247, 247);
+}
+.main-div h6 a{
+    text-decoration: none;
+    color:rgb(202, 247, 247) ;
+}
+

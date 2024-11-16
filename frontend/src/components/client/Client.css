@@ -1,0 +1,25 @@
+.client-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:2vh;
+}
+.client-section button{
+    padding: 1vh 3vh;
+    border:none;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1vh;
+}
+.client-section input{
+    border-radius:2vh;
+    border: none;
+    padding: 1vh;
+    outline: 2px solid gray;
+    color: blue;
+}
+.client-section button:hover{
+    background-color: chocolate;
+}
+
